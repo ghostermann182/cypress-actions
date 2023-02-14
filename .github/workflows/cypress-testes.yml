@@ -3,7 +3,7 @@ name: Cypress Testes
 on:
   workflow_dispatch:
     inputs:
-      cli:
+      spec:
         description: Run by cypress command line
         default: npx cypress run
 
