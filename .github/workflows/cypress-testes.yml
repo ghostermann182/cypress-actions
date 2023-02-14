@@ -3,7 +3,7 @@ name: Cypress Testes
 on:
   workflow_dispatch:
     inputs:
-      spec:
+      cli:
         description: Run by node command
         default: node runner.js
 
